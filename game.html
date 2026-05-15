@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./game.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div class="layout">
+        <div class="resultCard">
+            <div><h2 class="resultComment"></h2></div>
+            <div class="pointsRow">
+                <h3 id="finalUserScore"></h3>
+                <h3 id="finalBotScore"></h3>
+            </div>
+            <div class="gameBtnRow">
+                <button id="continueBtn">Continue</button>
+                <button id="newGameBtn">New Game</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="headingRow"><h1 class="heading">Rock Paper Scissors</h1></div>
+            <div><h2 class="turnHeading"></h2></div>
+            <div class="btnTriangle">
+                <div class="firstTriRow"><img class="rockBtn" src="./Images/rock_img.png" alt="Rock"><img></div>
+                <div class="secondTriRow"><img class="paperBtn" src="./Images/paper_img.png" alt="Paper"><img>
+                <img class="scissorsBtn" src="./Images/scissors_img.png" alt="Scissors"><img></div>
+            </div>
+            <div><h3 class="botPickEl"><h3></div>
+            <div><h3 class="turnCommentEl"> <h3></div>
+            <div class="pointsRow">
+                <h3 class="userScoreEl"></h3>
+                <h3 class="botScoreEl"></h3>
+            </div>
+        </div>
+    </div>
+    <script src="./game.js"></script>
+</body>
+</html>

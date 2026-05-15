@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #eeeeee;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #202020;
+}
+.card{
+    width:80%;
+    max-width: 450px;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    box-shadow: 0 8px 50px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    max-height: 80%;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.btnTriangle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:80%;
+    height: auto;
+    gap: 20px;
+    padding: 20px;
+    background-color: #2b2b2b;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+}
+
+.headingRow{
+    text-align: center;
+    width:100%;
+    height: auto;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #2b2b2b;
+    margin-bottom: 5px;
+}
+.turnHeading{
+    font-size: 1.7rem;
+}
+
+.firstTriRow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secondTriRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+.rockBtn,
+.paperBtn,
+.scissorsBtn {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.pointsRow{
+    width:100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.resultCard {
+    position:fixed;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 25px;
+    margin-top: 10px;
+    background-color: #2b2b2b;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+    min-width: 300px;
+    z-index:5;
+}
+
+.gameBtnRow {
+    display: flex;
+    gap: 15px;
+}
+
+#continueBtn{
+    padding: 10px;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+}
+#newGameBtn {
+    background-color: #2196f3;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+}
+
+.rockBtn:hover,
+.paperBtn:hover,
+.scissorsBtn:hover,
+#continueBtn:hover,
+#newGameBtn:hover{
+    opacity: 85%;
+}
+

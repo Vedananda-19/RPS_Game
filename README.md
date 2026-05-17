@@ -18,8 +18,8 @@ These are the main technologies I used to build and deploy this project.
 ### GamePage
 ![Game](./screenshots/game.png)
 
-### JavaScript Code
+### HTML Code
 ![HTML](./screenshots/html.png)
 
-### HTML Code
+### JavaScript Code
 ![JS](./screenshots/js.png)

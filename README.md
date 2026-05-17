@@ -19,7 +19,7 @@ These are the main technologies I used to build and deploy this project.
 ![Game](./screenshots/game.png)
 
 ### JavaScript Code
-![HTML](./screenshots/hmtl.png)
+![HTML](./screenshots/html.png)
 
 ### HTML Code
 ![JS](./screenshots/js.png)
